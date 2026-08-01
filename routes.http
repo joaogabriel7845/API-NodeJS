@@ -1,0 +1,15 @@
+GET http://localhost:3333/posts
+
+###
+
+POST http://localhost:3333/posts
+Content-Type: application/json
+
+{
+    "title": "Aprendendo cada vez mais e mais",
+    "author": "Dogcore"
+}
+
+###
+
+DELETE http://localhost:3333/posts/a6403333-174a-4da7-baa6-2699356b975a
